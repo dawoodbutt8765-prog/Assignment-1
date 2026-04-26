@@ -30,8 +30,6 @@ int calculateSum(int arr[], int size)
     }
     return sum;
 }
-
-// Part (C): Function to write array to file
 void writeToFile(int arr[], int size)
 {
     ofstream in("arrayData.txt");
